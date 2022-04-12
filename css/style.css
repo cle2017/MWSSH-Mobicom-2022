@@ -358,32 +358,31 @@ p.intro{
 }
 
 .committee > .com-table {
-	margin:0 0 10% 10%;
-	text-align: center;
-	width: 100%;
+	width: 80%;
+	padding:1% 10%;
 	overflow: auto;
 	display: -webkit-box;
+	text-align: center;
 }
 
-.committee table {
-	margin-top: 1%;
-	width: 80%;
+.committee > .com-table > table {
+	width: 100%;
 	text-align: center;
 	/*word-break: break-all;*/
 	word-wrap: break-word;
 }
-.committee table tr.name {
+.committee > .com-table > table tr.name {
 	padding: 0 10px 0 0;
 }
-.committee table td {
+.committee > .com-table > table td {
 	 text-align: center;
 	 padding: 0 0 0 0;
 	 border-spacing: 5px 0;
 }
-.committee table td.title {
+.committee > .com-table > table td.title {
 	 background-color: #DDDDDD;
 }
-.committee table td.last {
+.committee > .com-table > table td.last {
 	 padding: 0;
 }
 
