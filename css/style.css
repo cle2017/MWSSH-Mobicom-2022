@@ -186,13 +186,6 @@ h3.style{
 	text-transform: capitalize;
 	font-family: 'Merriweather Sans', sans-serif;
 }
-p.para{
-	text-align:left;
-	font-size: 0.8925em;
-	line-height:1.8em;
-	color: #111111;
-	font-family: 'Merriweather Sans', sans-serif;	
-}
 p.intro{
 	text-align:left;
 	font-size: 1.2em;
@@ -246,10 +239,10 @@ p.intro{
 .pagination ul {
 	margin: 8% 0;
 }
-.pagination ul  li {
+.pagination ul li {
 	float: left;
 }
-.pagination ul  li a{
+.pagination ul li a{
 	color: #111111;
 	font-size: 1em;
 	display: block;
@@ -358,8 +351,8 @@ p.intro{
 }
 
 .committee > .com-table {
-	width: 80%;
-	padding:1% 10%;
+	width: 100%;
+	padding:1% 0%;
 	overflow: auto;
 	display: -webkit-box;
 	text-align: center;
@@ -370,21 +363,70 @@ p.intro{
 	text-align: center;
 	/*word-break: break-all;*/
 	word-wrap: break-word;
+	/*table-layout: fixed;*/
 }
-.committee > .com-table > table tr.name {
-	padding: 0 10px 0 0;
+.img_show {
+	margin-top: 10px;
+	width: 160px;
+	height: 200px;
 }
-.committee > .com-table > table td {
-	 text-align: center;
-	 padding: 0 0 0 0;
-	 border-spacing: 5px 0;
+.committee > .com-table > table > td {
+	text-align: center;
+	padding: 0 0 0 0;
+	/*border-spacing: 5px 0;*/
+}
+.committee > .com-table > table > tr.name td {
+	max-width: 25%;
 }
 .committee > .com-table > table td.title {
-	 background-color: #DDDDDD;
+	background-color: #DDDDDD;
 }
-.committee > .com-table > table td.last {
-	 padding: 0;
+
+.committee > .com-table p {
+	font-size: 1.2em;
+	line-height:1.2em;
+	color: #111111;
+	font-family: 'Merriweather Sans', sans-serif;
+	/*text-indent:32.4px;*/
+	letter-spacing: 0px;
+	word-spacing: -2px;
 }
+
+.committee > .com-table h4 {
+	font-size: 1.1em;
+	line-height:1.2em;
+	font-weight: bold;
+	color: #111111;
+	font-family: 'Merriweather Sans', sans-serif;
+	display:block;
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.committee > .com-table h4 a {
+	font-size: 1.1em;
+	line-height:1.2em;
+	font-weight: bold;
+	color: #111111;
+	font-family: 'Merriweather Sans', sans-serif;
+	display:block;
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.committee > .com-table h4 a:hover{
+	/*color:#333333;*/
+	color:#5599FF;
+}
+
 
 /* start footer */
 .footer{
