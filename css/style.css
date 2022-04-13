@@ -285,7 +285,7 @@ p.intro{
 	/*table-layout: fixed;*/
 }
 .img_show {
-	margin-top: 1%;
+	margin-top: 0.5%;
 	/*width: 160px;
 	height: 200px;*/
 	width: 60%;
@@ -296,7 +296,7 @@ p.intro{
 }
 .committee > .com-table > table > td {
 	text-align: center;
-	padding: 1% 1% 0 0;
+	padding: 0.5% 0.5% 0 0;
 }
 .committee > .com-table > table > tr.name td {
 	max-width: 25%;
@@ -318,7 +318,7 @@ p.intro{
 }
 
 .committee > .com-table h4 {
-	padding-top: 1%;
+	padding-top: 0.5%;
 	font-size: 1.2vw;
 	line-height:1.3vw;
 	font-weight: bold;
