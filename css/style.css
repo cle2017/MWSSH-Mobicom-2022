@@ -208,15 +208,15 @@ p.intro{
 	text-align: center;
 }
 .notice h2.info {
-	margin-bottom: 2px;
+	margin-bottom: 1%;
 	font-family: 'nexa_boldregular';
 	display:block;
 	text-align: center;
 	font-size: 2.8vw;
 	color: #111111;
 	text-transform: capitalize;
-	letter-spacing: -1px;
-	word-spacing: 0px;
+	letter-spacing: 0px;
+	word-spacing: 2vm;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -248,7 +248,7 @@ p.intro{
 	font-size: 2.0vw;
 	color: #111111;
 	text-transform: capitalize;
-	letter-spacing: -1px;
+	letter-spacing: 0px;
 	word-spacing: 0px;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -257,13 +257,13 @@ p.intro{
 	transition: all 0.3s ease-out;
 } 
 .committee h3 {
-	padding: 5px 0;
+	padding: 1% 0;
 	font-size: 1.4vw;
 	/*text-decoration: underline black;*/
 } 
 .committee p {
 	font-size: 1.2vw;
-	line-height:1.2vw;
+	line-height:1.3vw;
 	color: #111111;
 	font-family: 'Merriweather Sans', sans-serif;
 	/*text-indent:32.4px;*/
@@ -285,7 +285,7 @@ p.intro{
 	/*table-layout: fixed;*/
 }
 .img_show {
-	margin-top: 10px;
+	margin-top: 1%;
 	/*width: 160px;
 	height: 200px;*/
 	width: 60%;
@@ -296,19 +296,20 @@ p.intro{
 }
 .committee > .com-table > table > td {
 	text-align: center;
-	padding: 0 0 0 0;
-	/*border-spacing: 5px 0;*/
+	padding: 1% 1% 0 0;
 }
 .committee > .com-table > table > tr.name td {
 	max-width: 25%;
 }
 .committee > .com-table > table td.title {
+	height: 90%;
 	background-color: #DDDDDD;
 }
 
 .committee > .com-table p {
+	padding: 0.5% 0;
 	font-size: 1.2vw;
-	line-height:1.2vw;
+	line-height:1.3vw;
 	color: #111111;
 	font-family: 'Merriweather Sans', sans-serif;
 	/*text-indent:32.4px;*/
@@ -317,12 +318,14 @@ p.intro{
 }
 
 .committee > .com-table h4 {
+	padding-top: 1%;
 	font-size: 1.2vw;
-	line-height:1.2vw;
+	line-height:1.3vw;
 	font-weight: bold;
 	color: #111111;
 	font-family: 'Merriweather Sans', sans-serif;
 	display:block;
+	margin-top: 1%;
 	text-transform: capitalize;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -333,7 +336,7 @@ p.intro{
 
 .committee > .com-table h4 a {
 	font-size: 1.2vw;
-	line-height:1.2vw;
+	line-height:1.3vw;
 	font-weight: bold;
 	color: #111111;
 	font-family: 'Merriweather Sans', sans-serif;
@@ -431,9 +434,9 @@ p.intro{
 }
 .copy p{
 	text-transform: capitalize;
-	font-size: 0.8725em;
+	font-size: 0.8725vm;
 	color: #555555;
-	line-height: 1.8em;
+	line-height: 1.8vm;
 }
 .copy p a{
 	color: #000000;
