@@ -307,9 +307,9 @@ p.intro{
 }
 
 .committee > .com-table p {
-	padding: 0.2% 0;
+	/*padding: 0.2% 0;*/
 	font-size: 1.2vw;
-	line-height:1.3vw;
+	/*line-height:1.3vw;*/
 	color: #111111;
 	font-family: 'Merriweather Sans', sans-serif;
 	/*text-indent:32.4px;*/
@@ -320,11 +320,11 @@ p.intro{
 .committee > .com-table h4 {
 	/*padding-top: 0.5%;*/
 	font-size: 1.2vw;
-	line-height:1.3vw;
+	/*line-height:1.3vw;*/
 	font-weight: bold;
 	color: #111111;
 	font-family: 'Merriweather Sans', sans-serif;
-	display:block;
+	/*display:block;*/
 	margin-top: 1%;
 	text-transform: capitalize;
 	-webkit-transition: all 0.3s ease-out;
@@ -336,11 +336,11 @@ p.intro{
 
 .committee > .com-table h4 a {
 	font-size: 1.2vw;
-	line-height:1.3vw;
+	/*line-height:1.3vw;*/
 	font-weight: bold;
 	color: #111111;
 	font-family: 'Merriweather Sans', sans-serif;
-	display:block;
+	/*display:block;*/
 	text-transform: capitalize;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
