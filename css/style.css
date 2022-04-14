@@ -257,7 +257,7 @@ p.intro{
 	transition: all 0.3s ease-out;
 } 
 .committee h3 {
-	padding: 1% 0;
+	padding: 0 0;
 	font-size: 1.4vw;
 	/*text-decoration: underline black;*/
 } 
@@ -296,13 +296,13 @@ p.intro{
 }
 .committee > .com-table > table > td {
 	text-align: center;
-	padding: 0.2% 0.2% 0 0;
+	padding: 0;
 }
 .committee > .com-table > table > tr.name td {
 	max-width: 25%;
 }
 .committee > .com-table > table td.title {
-	height: 90%;
+	/*height: 90%;*/
 	background-color: #DDDDDD;
 }
 
