@@ -382,7 +382,7 @@ p.intro{
 	font-family: 'Merriweather Sans', sans-serif;
 	color: #555555;
 	display: block;
-	font-size: 15px;
+	font-size: 0.8vw;
 	padding: 8px 0px;
 	text-decoration: none;
 	text-transform: capitalize;
@@ -406,18 +406,6 @@ p.intro{
 	-moz-border-radius: 30px;
 	-o-border-radius: 30px;
 }
-.foot_soc ul li a.icon1{
-	background: #000000 url('../images/icon1.png') no-repeat 12px 12px;
-}
-.foot_soc ul li a.icon2{
-	background: #000000 url('../images/icon2.png') no-repeat 12px 12px;
-}
-.foot_soc ul li a.icon3{
-	background: #000000 url('../images/icon3.png') no-repeat 12px 12px;
-}
-.foot_soc ul li a.icon4{
-	background: #000000 url('../images/icon4.png') no-repeat 12px 12px;
-}
 .foot_soc ul li a:hover{
 	zoom: 1;
     filter: alpha(opacity=50);
@@ -434,9 +422,9 @@ p.intro{
 }
 .copy p{
 	text-transform: capitalize;
-	font-size: 0.8725vm;
+	font-size: 0.8725vw;
 	color: #555555;
-	line-height: 1.8vm;
+	line-height: 1.8vw;
 }
 .copy p a{
 	color: #000000;
@@ -476,7 +464,7 @@ h5.style{
 	font-size:16px;
 	font-family: 'nexa_boldregular';
 	color: #555555;
-	line-height: 1.8em;
+	line-height: 1.8vw;
 }
 .span3{
 	text-align:center;
