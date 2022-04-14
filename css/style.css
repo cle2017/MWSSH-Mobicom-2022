@@ -285,7 +285,7 @@ p.intro{
 	/*table-layout: fixed;*/
 }
 .img_show {
-	margin-top: 0.5%;
+	margin-top: 0.1%;
 	/*width: 160px;
 	height: 200px;*/
 	width: 60%;
@@ -318,7 +318,7 @@ p.intro{
 }
 
 .committee > .com-table h4 {
-	padding-top: 0.5%;
+	/*padding-top: 0.5%;*/
 	font-size: 1.2vw;
 	line-height:1.3vw;
 	font-weight: bold;
@@ -581,28 +581,7 @@ h4.style1 a:hover{
 	-o-transition: opacity .15s ease-in-out;
 	transition: opacity .15s ease-in-out;
 }
-.grids_of_2 h2{
-	display: block;
-	font-family: 'nexa_boldregular';
-	font-size: 2.5em;
-	color: #111111;
-	letter-spacing: -2px;
-}
-.grid1_of_2{
-	margin-top: 4%;
-}
-.grid_img{
-	float: left;
-	width: 8.33333%;
-	margin-right: 2%;
-}
-.grid_text{
-	float: left;
-	width:88.33333%
-}
-.grid_text h3{
-	text-align:left;
-}
+
 .btn1{
 	margin-top: 1%;
 	display: inline-block;
@@ -712,7 +691,7 @@ form{
 	font-family: 'Merriweather Sans', sans-serif;
 	color: #666666;
 	display: block;
-	font-size: 0.8725em;
+	font-size: 0.8725vw;
 	padding-bottom: 5px;
 }
 .contact-form input[type="text"], .contact-form textarea {
@@ -857,7 +836,7 @@ form{
 		width: 100%;
 	}
 	h2.style a {
-		font-size: 2.2em;
+		font-size: 2.2vw;
 	}
 	.cssmenu > ul > li > a {
 		padding: 10px 10px;
