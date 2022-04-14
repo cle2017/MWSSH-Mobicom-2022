@@ -374,55 +374,14 @@ p.intro{
 	float: right;
 	margin-top: 1%;
 }
-.foot_nav li{
-	float: left;
-	margin-right: 8%;
-}
-.foot_nav li a{
-	font-family: 'Merriweather Sans', sans-serif;
-	color: #555555;
-	display: block;
-	font-size: 0.8vw;
-	padding: 8px 0px;
-	text-decoration: none;
-	text-transform: capitalize;
-}
-.foot_nav li a:hover{
-	color: #111111;
-}
-.foot_soc ul li{
-	float:left;
-	margin-right: 3.3333%;
-}
-.foot_soc ul li a{
-	display: block;
-}
-.foot_soc ul li a{
-	width: 32px;
-	height: 32px;
-	padding: 8px;
-	border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	-o-border-radius: 30px;
-}
-.foot_soc ul li a:hover{
-	zoom: 1;
-    filter: alpha(opacity=50);
-    opacity: 0.7;
-	-webkit-transition: opacity .15s ease-in-out;
-    -moz-transition: opacity .15s ease-in-out;
-    -ms-transition: opacity .15s ease-in-out;
-    -o-transition: opacity .15s ease-in-out;
-	transition: opacity .15s ease-in-out;
-}
+
 /* start footer copy */
 .copy{
 	font-family: 'Merriweather Sans', sans-serif;
 }
 .copy p{
 	text-transform: capitalize;
-	font-size: 0.8725vw;
+	font-size: 0.6725vw;
 	color: #555555;
 	line-height: 1.8vw;
 }
@@ -597,137 +556,8 @@ h4.style1 a:hover{
 .grid1_of_2.left{
 	margin-left: 14%;
 }
-/*---comment-box----*/
-.artical-commentbox {
-	margin: 2% 0;
-}
-.table-form{
-	width:100%;
-}
-.table-form form input[type="text"]{
-	font-family: 'Merriweather Sans', sans-serif;
-	border: 1px solid rgba(192, 192, 192, 0.61);
-	outline: none;
-	padding: 10px;
-	margin-top: 23px;
-	color: #333333;
-	overflow: hidden;
-	width: 40%;
-	display: block;
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-}
-.table-form textarea{
-	font-family: 'Merriweather Sans', sans-serif;
-	padding: 8px;
-	margin-top: 25px;
-	outline:none;
-	color: #333333;
-	border: 1px solid rgba(192, 192, 192, 0.61);
-	width:70%;
-	height:100px;
-	resize: none;
-}
-.table-form a{
-	font-family: 'Merriweather Sans', sans-serif;
-	color: #5a5a5a;
-	padding:8px 20px;
-	background: #fff;
-	text-decoration: none;
-	text-shadow: none;
-	border: 1px solid rgba(192, 192, 192, 0.61);
-	float: left;
-	margin-top: 10px;
-	display: block;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-}
-.table-form a:hover{
-	background: #111111;
-	color: #fff;
-}
-/***Contact*/
-.contact h2 a{
-	text-align:left;
-}
-.map{
-	margin: 4% 0 2%;
-}
-form{
-	margin-top: 2%;
-}
-.col{
-	display: block;
-}
-.contact-form{
-	position:relative;
-	padding-bottom:30px;
-}
-.contact-form div{
-	padding:5px 0;
-}
-.contact-form span label{
-	font-family: 'Merriweather Sans', sans-serif;
-	color: #666666;
-	display: block;
-	font-size: 0.8725vw;
-	padding-bottom: 5px;
-}
-.contact-form input[type="text"], .contact-form textarea {
-	font-family: 'Merriweather Sans', sans-serif;
-	font-size: 0.8725em;
-	background: #FFFFFF;
-	border: 1px solid #E7E7E7;
-	color: rgba(85, 81, 81, 0.84);
-	padding: 8px;
-	display: block;
-	width: 98%;
-	outline: none;
-	-webkit-appearance: none;
-	text-transform: capitalize;
-}
-.contact-form textarea{
-	resize:none;
-	height:120px;		
-}
-.contact-form input[type="submit"]{
-	cursor:pointer;
-	outline:none;
-	font-size: 0.8725em;
-	text-transform:uppercase;
-	font-family: 'Merriweather Sans', sans-serif;
-	color: #5a5a5a;
-	padding: 8px 20px;
-	background: #fff;
-	text-decoration: none;
-	text-shadow: none;
-	border: 1px solid rgba(192, 192, 192, 0.61);
-	float: left;
-	margin-top: 10px;
-	display: block;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-}
-.contact-form input[type="submit"]:hover{
-	background: #111111;
-	color: #ffffff;
-}
+
+
 /***** Media Quries *****/
 @media only screen and (max-width: 1366px) {
 	.wrap{
