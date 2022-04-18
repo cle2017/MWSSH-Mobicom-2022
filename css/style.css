@@ -350,7 +350,7 @@ p.intro{
 	color: #111111;
 	font-family: 'Merriweather Sans', sans-serif;
 	/*display:block;*/
-	margin-top: 1%;
+	margin-top: 1px;
 	text-transform: capitalize;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
